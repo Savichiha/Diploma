@@ -33,7 +33,7 @@ def test_eng_search():
         assert text[0:74] == "Показываем результаты по запросу «harry potter and the philosophers stone»"
 
 @allure.title("Пустой поиск")
-@allure.description("Тест проверяет вылонение пустого поиска")
+@allure.description("Тест проверяет выполнение пустого поиска")
 @allure.feature("READ")
 @allure.severity("trivial")
 @pytest.mark.negative_test 
